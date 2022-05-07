@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InputForm</string>
+    <string name="name">name</string>
+    <string name="mssv">MSSV</string>
+    <string name="h_t_n">Họ Tên</string>
+    <string name="cccd">CCCD</string>
+    <string name="sdt">sdt</string>
+    <string name="email">email</string>
+    <string name="qu_qu_n">Quê quán</string>
+    <string name="a_ch">Địa chỉ</string>
+    <string name="khoa_h_c_m_y_t_nh">Khoa học máy tính</string>
+    <string name="k_thu_t_m_y_t_nh">Kĩ thuật máy tính</string>
+    <string name="programing_languages">programing languages</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="c_plus">C++</string>
+    <string name="python">Python</string>
+    <string name="ng_y_sinh">Ngày sinh</string>
+    <string name="ng_n_ng_l_p_tr_nh">Ngôn ngữ lập trình</string>
+    <string name="agree">Agree</string>
+    <string name="ok">OK</string>
+</resources>

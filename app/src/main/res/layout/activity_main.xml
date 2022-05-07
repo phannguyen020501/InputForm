@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextMSSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/mssv"
+                android:inputType="number"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/h_t_n"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editTextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/cccd"
+                android:inputType="number"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/sdt"
+                android:inputType="textPhonetic"
+                android:padding="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateTIL">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ng_y_sinh"
+                    android:inputType="date"
+                    android:id="@+id/dateFormat"
+                    tools:ignore="InvalidId">
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editTextHometown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/qu_qu_n"
+                android:inputType="text"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/a_ch"
+                android:inputType="textEmailAddress"
+                android:padding="15dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonKHMT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/khoa_h_c_m_y_t_nh" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonKTMT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/k_thu_t_m_y_t_nh" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/program_lan"
+                android:text="@string/ng_n_ng_l_p_tr_nh"
+                android:padding="15dp"
+
+                />
+            <CheckBox
+                android:id="@+id/checkbox_java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java"
+                />
+            <CheckBox
+                android:id="@+id/checkbox_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c"
+                />
+            <CheckBox
+                android:id="@+id/checkbox_c_plus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c_plus"
+                />
+            <CheckBox
+                android:id="@+id/checkbox_python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/python"
+                />
+
+
+            <CheckBox
+                android:id="@+id/checkbox_agree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agree" />
+
+            <Button
+                android:id="@+id/buttonOk"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@android:color/darker_gray"
+                android:clickable="false"
+                android:text="@string/ok" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
